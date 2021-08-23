@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(237, 243, 248);
+}
+
+.sedans .suvs .luxury{width:100%}
+.sedans{
+    background-color: orange ;
+  
+}
+
+.suvs{
+    background-color:cadetblue ;
+}
+.luxury{
+    background-color:rgb(4, 43, 43);
+}
+div{
+    color:white;
+    height: 100%;
+}
+h2{
+    text-align: left;
+}
+
+
+img{
+    margin-right: 10em;
+}
+
+button{
+    border:solid white;
+    border-radius: 5px;
+    width:200px;
+    padding: 10px;
+    color: white;
+    margin-top:2em;
+    margin-left: -3em;
+    margin-bottom: 1em;
+}
+
+button:hover{
+    background-color: rgb(116, 99, 99);
+    color:cadetblue;
+}
+p{
+    font-size:20px;
+    text-align: justify;
+    /* margin-left: 1em;*/
+    margin-right: 2em;
+}
+
+
+.sed .suv .lux{   
+    width: 16px;
+    height: 16px;
+}
+
+
+.grid-item{
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+@media screen and (min-width: 420px) and (max-width: 800px) {
+
+
+
+    .sedans {
+        width: 5%;
+      }
+    
+      .suvs {
+        width: 5%;
+      }
+      .luxury{
+          width:5%;
+      }
+    
+     div{
+        width:10px;
+       
+     }
+     p{
+         font-size: 10px;
+     }
+     button{
+         margin-bottom: 5px;
+         margin-left: 5px;
+         width:100px;
+     }
+}
+
+@media (min-width: 800px) {
+    /*  */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+      }
+      .grid-item {
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding-top: 1.5em;
+        padding-left: 1.5em;
+        padding-bottom: -2em;
+        font-size: 30px;
+        text-align: center;}
+
+        section{
+            display: flex;
+            flex-direction:column;
+            margin:3em 4em 10em 3em;
+            width :40em;
+            height: 30em;
+            /* border-color: rgb(237, 243, 248); */
+            /* border:solid rgb(237, 243, 248);
+            border-radius: 5px; */
+        }
+  }
